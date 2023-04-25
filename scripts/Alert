@@ -1,0 +1,3 @@
+function newPage() {
+    alert("This is a link to another website");
+}

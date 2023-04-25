@@ -1,0 +1,53 @@
+
+.all_recipies {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.First-Row {
+    width: 300px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+.Recipe {
+    width: 50%;
+    height: 25%;
+    float: right;
+    font-size: large;
+    margin-bottom: 50px;
+    
+}
+
+.RecipeTitle {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    width: 400px;
+    
+}
+
+.Ingredients {
+    font-weight: bold;
+    font-size: large;
+    width: 400px;
+}
+
+.Directions {
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    display: inline-block;
+    width: 50%;
+    
+}
+
+.seafoodIMG {
+    width: 390px;
+    height: 390px;
+    object-fit: fill;
+    border-style: solid;
+    border-color: black;
+    display: block;
+}
