@@ -1,4 +1,4 @@
-
+/* CSS Page */
 .Welcome-message{
     font-family: serif;
     text-align: center;
@@ -29,7 +29,7 @@
     font-style: oblique;
 }
 .tips{
-    background-color:rgb(254, 254, 254) ;
+    background-color:rgb(214, 240, 250);
     border-color: black;
     border-style: solid;
     font-size: large;
@@ -50,4 +50,68 @@
     text-decoration: none;
     color:rgb(203, 65, 6)
     
+}
+
+/* Styling paragraphs and Headings on Non recipe pages*/
+
+.aboutUs{
+    background-color:rgb(214, 240, 250);
+    border-color: black;
+    border-style: solid;
+}
+
+.p-heading{
+    margin-left: 25px;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+.para{
+    font-family: serif;
+    font-size: large;
+    margin-left: 25px;
+    padding-bottom:20px;
+    padding-top: 5px;
+    
+}
+
+.info-icon{
+    height: 30px;
+    width: 40;
+    margin-right:100px;
+    margin-top: 5px;
+}
+.info-button{
+        height: 40px;
+        width: 45px;
+        margin-left: -1px;
+        border-radius: 8%;
+        border-width: 1px;
+        border-color: rgb(98, 98, 98);
+        background-color: white;
+        cursor:pointer;
+        box-shadow: 5px 5px 10px rgb(69, 69, 69,00.15s);
+        transition: box-shadow 0.15s;
+        
+}
+.social-button{
+    height: 42px;
+        width: 120px;
+        margin-left: -1px;
+        border-radius: 8%;
+        border-width: 1px;
+        border-color: rgb(98, 98, 98);
+        background-color: white;
+        cursor:pointer;
+        box-shadow: 5px 5px 10px rgb(69, 69, 69,00.15s);
+        transition: box-shadow 0.15s;
+}
+.social-button:hover{
+    opacity:0.5;
+    background-color:  rgb(213, 213, 215);
+}
+.info-button:hover{
+    opacity:0.5;
+    background-color:  rgb(213, 213, 215);
 }
