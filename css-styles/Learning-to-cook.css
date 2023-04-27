@@ -320,6 +320,7 @@ body {
 
 /*Adding a background color to the entire "about us" div for the text on the page*/
 .aboutUs {
+    flex: auto;
     background-color: rgb(214, 240, 250);
     border-color: black;
     border-style: solid;
