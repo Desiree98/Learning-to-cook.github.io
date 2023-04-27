@@ -25,7 +25,7 @@ let app_recipes = [{
 },
 {
     name: "Chef John's Crab-Stuffed Sole",
-    img: '../Recipe Images/chef johns crab stuffed sole.webp',
+    img: '../Recipe Images/crab stuffed sole.webp',
     ingredients: [
         "cooking spray",
         "4 ounces fresh Dungeness crabmeat",
