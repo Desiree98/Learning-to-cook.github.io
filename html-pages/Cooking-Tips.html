@@ -4,31 +4,35 @@
 
 
 <head>
+    <!-- Adding webiste name and logo to title tab (favicon help from https://www.geeksforgeeks.org/)-->
     <Title> Learning Seafood Cuisine</Title>
 
+    <link rel="icon" href="../icons/Logo.avif" type="image/x-icon">
+
+    <!-- linking Learning-to-cook's stylesheet -->
     <link rel="stylesheet" href="../css-styles/Learning-to-cook.css">
 
-    <link rel="icon" href="../icons/Logo.avif" type="image/x-icon">
+
 </head>
 
 <body>
 
-
+    <!-- Adding the navigation bar on the top of the page and linking the pages to their headings (divs were used to create this). -->
     <div class="header">
 
 
-        <div class="Learning-Seafood-Cuisine"> <img class="logo" src="../icons/Logo.avif" > Learning Seafood Cuisine
-          </div>
-
-        <div class="HeaderPages">
-            <a class="header-links" href= "../index.html">Home Page</a>
+        <div class="Learning-Seafood-Cuisine"> <img class="logo" src="../icons/Logo.avif"> Learning Seafood Cuisine
         </div>
 
-        <div  class="HeaderPages" >
+        <div class="HeaderPages">
+            <a class="header-links" href="../index.html">Home Page</a>
+        </div>
+
+        <div class="HeaderPages">
             <a class="header-link-active" href="Cooking-Tips.html">Cooking Tips</a>
         </div>
 
-        <div class="HeaderPages" >
+        <div class="HeaderPages">
             <a class="header-links" href="Seafood-Appetizers.html">Seafood Appetizers</a>
         </div>
 
@@ -38,67 +42,109 @@
 
         <div class="HeaderPages">
             <a class="header-links" href="Seafood-Sides.html">Seafood sides</a>
-            </div>
+        </div>
 
         <div class="HeaderPages">
-                <a class="header-links" href="About-Us.html">About Us</a>
-                </div>
+            <a class="header-links" href="About-Us.html">About Us</a>
+        </div>
 
-
-        <div class="search-box"> 
-            <input class= "search-bar" type="search" placeholder="Search">
-            <button class="search-button"> <img class="search-icon" src="../icons/search.jpg"> </button> 
+        <!-- Adding a search bar and button to the end of the navigation bar, and attaching a search image -->
+        <div class="search-box">
+            <input class="search-bar" type="search" placeholder="Search">
+            <button class="search-button"> <img class="search-icon" src="../icons/search.jpg"> </button>
         </div>
     </div>
 
+    <!-- Adding a page heading for Cooking Tips-->
     <h1 class="Page-heading"> Cooking Tips </h1>
 
-<div class= "CT-page">
+    <div class="CT-page">
 
-    <div>
-        <p class="Welcome-message"> We're excited that you've chosen to explore the wonderful world of seafood cuisine with us. Before you start cooking, we want to provide you with some helpful tips to ensure that your seafood dishes turn out delicious every time.</p>
-    </div>
+        <div>
+            <!-- Adding a Welcome message to the page, class is called welcome message -->
+            <p class="Welcome-message"> We're excited that you've chosen to explore the wonderful world of seafood
+                cuisine with us. Before you start cooking, we want to provide you with some helpful tips to ensure that
+                your seafood dishes turn out delicious every time.</p>
+        </div>
 
-    <div>
-        <img class="CT-IMGs" src="../icons/Ctips-icon.png">
-       </div>
+        <div>
+            <!-- Adding cooking tips picture to the page -->
+            <img class="CT-IMGs" src="../icons/Ctips-icon.png">
+        </div>
 
-    <div> 
+        <div>
+            <!-- List of cooking tips heading -->
+            <p class="p-heading">Tips for beginners:</p>
+            <!-- Adding the tips to the page using an ordered list tag and li tag to add numbering to the tips -->
+            <ol class="tips">
+                <li class="li">Start with simple recipes: Begin with recipes that have fewer ingredients and are easier
+                    to make. You'll get comfortable with the basics before moving on to more complex recipes.</li>
+                <li class="li">Prepare all ingredients before cooking: Gather all the ingredients you need before you
+                    start cooking, and prepare them by chopping, peeling, and measuring them as required. This will help
+                    you stay organized and ensure that you don't forget any ingredients.</li>
+                <li class="li"> Always start with fresh seafood: The quality of your seafood is crucial to the success
+                    of your dish. Look for seafood that is firm, has a mild odor, and bright, shiny flesh.</li>
+                <li class="li">Use the right tools: Invest in some basic kitchen tools such as a good quality knife,
+                    cutting board, pots, and pans. Having the right tools makes cooking easier and more enjoyable. </li>
+                <li class="li"> Follow the recipe: Read the recipe carefully and follow it step-by-step. Cooking is like
+                    science, so it's important to follow the recipe to achieve the desired result.</li>
+                <li class="li">Don't be afraid to experiment: While it's important to follow the recipe, don't be afraid
+                    to add your own touch to it. Experiment with different ingredients and spices to make the dish your
+                    own.</li>
+                <li class="li"> Taste as you go: Taste your dish as you cook to ensure that it's turning out as you
+                    expected. Adjust the seasoning or other ingredients as required.</li>
+                <li class="li">Clean as you go: Clean up as you cook to keep your kitchen organized and minimize the
+                    cleanup at the end. This also reduces the risk of cross-contamination and makes the cooking process
+                    more enjoyable.</li>
+                <li class="li">Have fun: Cooking can be a lot of fun, so enjoy the process! Play some music, invite
+                    friends or family over to help, and have a good time.</li>
+            </ol>
 
-        <p class="p-heading">Tips for beginners:</p>
-        <ol class="tips">
-            <li class="li">Start with simple recipes: Begin with recipes that have fewer ingredients and are easier to make. You'll get comfortable with the basics before moving on to more complex recipes.</li>
-            <li class="li">Prepare all ingredients before cooking: Gather all the ingredients you need before you start cooking, and prepare them by chopping, peeling, and measuring them as required. This will help you stay organized and ensure that you don't forget any ingredients.</li>
-            <li class="li"> Always start with fresh seafood: The quality of your seafood is crucial to the success of your dish. Look for seafood that is firm, has a mild odor, and bright, shiny flesh.</li>
-            <li class="li">Use the right tools: Invest in some basic kitchen tools such as a good quality knife, cutting board, pots, and pans. Having the right tools makes cooking easier and more enjoyable. </li>
-            <li class="li"> Follow the recipe: Read the recipe carefully and follow it step-by-step. Cooking is like science, so it's important to follow the recipe to achieve the desired result.</li>
-            <li class="li">Don't be afraid to experiment: While it's important to follow the recipe, don't be afraid to add your own touch to it. Experiment with different ingredients and spices to make the dish your own.</li>
-            <li class="li"> Taste as you go: Taste your dish as you cook to ensure that it's turning out as you expected. Adjust the seasoning or other ingredients as required.</li>
-            <li class="li">Clean as you go: Clean up as you cook to keep your kitchen organized and minimize the cleanup at the end. This also reduces the risk of cross-contamination and makes the cooking process more enjoyable.</li>
-            <li class="li">Have fun: Cooking can be a lot of fun, so enjoy the process! Play some music, invite friends or family over to help, and have a good time.</li>
-          </ol>
+            <!-- Linking the alert script for external website -->
+            <script src="../scripts/Alert"></script>
+            <!-- Adding the more tips website page (https://www.johnsoulesfoods.com/blog/cooking-tips-for-beginners/) to the cooking tips webpage -->
+            <a onclick="newPage()" class="more-tips"
+                href="https://www.johnsoulesfoods.com/blog/cooking-tips-for-beginners/" target="_blank"> Click here for
+                more cooking tips</a>
 
-          <script src="../scripts/Alert"></script>
-
-          <a onclick="newPage()" class="more-tips" href="https://www.johnsoulesfoods.com/blog/cooking-tips-for-beginners/" target="_blank"> Click here for more cooking tips</a> 
-          
-
-          <p class="info-H"> Contact Us:
+            <!-- Adding the website's infomation to the bottom of the cooking tips page -->
+            <p class="info-H"> Contact Us:
             <ul Class="page-info">
+                <!-- Creating a "clickable" image to direct you to the appropriate site in a new tab -->
+                <li>
+                    <div>
+                        <a href="mailto:info@learningseafoodcuisine.com" target="_blank"><img class="info-icon"
+                                src="../icons/email.png">
+                        </a>Email: Info@learningseafoodcuisine.com
+                    </div>
+                </li>
+                <li>
+                    <div> <a href="tel:17584565916" target="_blank"> <img class="info-icon" src="../icons/phone.png">
+                        </a>Phone: 1 (758) 4565916</div>
+                </li>
+                <li>
+                    <div> <a href="https://www.google.com/search?rlz=1C1GCEU_enLC995LC995&tbm=lcl&sxsrf=APwXEddNYqx7tuVM5U7M5KtulguYFEGw9g:1682538663374&q=Vieux+Fort+Post+Office&rflfq=1&num=20&stick=H4sIAAAAAAAAABWQu2kDYRCEUWDjWGcUXHQl7PvRgFMrci7ECQsEJyQZXI8rcF2uwnPJz88yO_PtvDyPgySFtwhRCnNbp49DS1AbmaWqY8Su4ysbqXVklqlne4XTOETjZy4uZlzp3AKpdhGXaJpZl0MZmCZrBGRCVWRUzMjKCvNWJcGk8OQq5UCKWItrFmgie9wqEMqh6M5O2CIfiwHjNiRnhxbXml8iyt2WYC-m9hwHyDDNAC8BN6oRj9PcRKtJcAZLYH9IBTcCPAvulcorU3SxCfBdtQp3EUyDSRic2Ecp1ICBVFBcdiUzV-NortXAYEvulcVJuFdjrbUMy06NdoHtiorHrbOlo9C1uy7L5t_N5m-z28_L9TJPh8t9me7z4Xb8nE7L7edp93Gev76nt-X2mPbL_TG9n07n4_wPo3odxuIBAAA&ved=2ahUKEwjz2Ob6qMj-AhX7D1kFHSYrC3YQjHJ6BAh1EAs&rldimm=6995845252441875192#rlfi=hd:;si:6995845252441875192,l,ChZWaWV1eCBGb3J0IFBvc3QgT2ZmaWNlWhwYAhgDIhZ2aWV1eCBmb3J0IHBvc3Qgb2ZmaWNlkgELcG9zdF9vZmZpY2WqAT8QATIfEAEiG6y5Qru4xXvjOQz1gDLoyfXjlqvPgDSQcSRJSDIaEAIiFnZpZXV4IGZvcnQgcG9zdCBvZmZpY2U;mv:[[14.103425699999999,-60.8906852],[13.701616099999999,-61.0589713]]"
+                            target="_blank"> <img class="info-icon" src="../icons/poBox2.png"> </a> PO Box: 40602930
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img class="info-icon" src="../icons/facebook-icon.png">
+                        </a>
+                        Social Media: @LearningSeafoodCuisine on Instagram, Twitter, and facebook
+                    </div>
+                </li>
+            </ul>
+            </p>
+        </div>
 
-                <li><div> <a href="https://www.office.com/" target="_blank"><img class="info-icon" src="../icons/email.png"> </a>Email: Info@learningseafoodcuisine.com</div></li>
-                <li><div> <a href="https://www.poptox.com/" target="_blank"> <img class="info-icon" src="../icons/phone.png"> </a>Phone: 1 (758) 4565916</div></li>
-                <li><div> <a href="https://www.google.com/search?rlz=1C1GCEU_enLC995LC995&tbm=lcl&sxsrf=APwXEddNYqx7tuVM5U7M5KtulguYFEGw9g:1682538663374&q=Vieux+Fort+Post+Office&rflfq=1&num=20&stick=H4sIAAAAAAAAABWQu2kDYRCEUWDjWGcUXHQl7PvRgFMrci7ECQsEJyQZXI8rcF2uwnPJz88yO_PtvDyPgySFtwhRCnNbp49DS1AbmaWqY8Su4ysbqXVklqlne4XTOETjZy4uZlzp3AKpdhGXaJpZl0MZmCZrBGRCVWRUzMjKCvNWJcGk8OQq5UCKWItrFmgie9wqEMqh6M5O2CIfiwHjNiRnhxbXml8iyt2WYC-m9hwHyDDNAC8BN6oRj9PcRKtJcAZLYH9IBTcCPAvulcorU3SxCfBdtQp3EUyDSRic2Ecp1ICBVFBcdiUzV-NortXAYEvulcVJuFdjrbUMy06NdoHtiorHrbOlo9C1uy7L5t_N5m-z28_L9TJPh8t9me7z4Xb8nE7L7edp93Gev76nt-X2mPbL_TG9n07n4_wPo3odxuIBAAA&ved=2ahUKEwjz2Ob6qMj-AhX7D1kFHSYrC3YQjHJ6BAh1EAs&rldimm=6995845252441875192#rlfi=hd:;si:6995845252441875192,l,ChZWaWV1eCBGb3J0IFBvc3QgT2ZmaWNlWhwYAhgDIhZ2aWV1eCBmb3J0IHBvc3Qgb2ZmaWNlkgELcG9zdF9vZmZpY2WqAT8QATIfEAEiG6y5Qru4xXvjOQz1gDLoyfXjlqvPgDSQcSRJSDIaEAIiFnZpZXV4IGZvcnQgcG9zdCBvZmZpY2U;mv:[[14.103425699999999,-60.8906852],[13.701616099999999,-61.0589713]]" target="_blank"> <img class="info-icon" src="../icons/poBox2.png"> </a> PO Box: 40602930</div></li>
-                <li><div> <a href="https://www.facebook.com/" target="_blank"> <img class="info-icon" src="../icons/facebook-icon.png"> </a>Social Media: @LearningSeafoodCuisine on Instagram, Twitter, and facebook</div></li>
-              </ul>
-        </p>
+
+        <!-- Adding the nextpage and previouspage button and link to the cooking tips page -->
+        <button Class="previouspage-Button"> <a class="nextpage-text" href="../index.html"> Previous Page</a> </button>
+        <button Class="nextpage-Button"> <a class="nextpage-text" href="Seafood-Appetizers.html"> Next Page</a>
+        </button>
     </div>
-
-    
-
-        <button Class="previouspage-Button" > <a class="nextpage-text" href="../index.html"> Previous Page</a> </button>
-        <button Class="nextpage-Button" > <a class="nextpage-text" href="Seafood-Appetizers.html"> Next Page</a> </button>
-</div>
 </body>
 
 </html>

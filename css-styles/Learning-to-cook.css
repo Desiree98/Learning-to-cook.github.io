@@ -124,7 +124,7 @@ body {
 
 /*Styling the search button*/
 .search-button {
-    height: 33px;
+    height: 30px;
     width: 40px;
     margin-left: -1px;
     border-radius: 8%;
@@ -355,7 +355,7 @@ body {
 .info-icon {
     height: 30px;
     width: 40;
-    margin-right: 100px;
+    margin-right: 10px;
     margin-top: 5px;
 }
 
@@ -426,4 +426,11 @@ body {
     border-color: black;
     border-radius: 2%;
     display: block;
+}
+/*Styling the music indicator message*/
+.music{
+    float:right;
+    margin-right:40px;
+    font-size: small;
+    font-weight:bold;
 }

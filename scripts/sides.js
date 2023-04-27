@@ -1,23 +1,31 @@
-let sides = document.getElementById('side_recipies');
+//Seafood sides recipe script page
 
+// referencing element by id on the HTML page
+let recepies_container = document.getElementById('side_recipies');
+
+//Adding appertizer recipes to the JS app
 let side_recipes = [{
+    //Adding the recipe name
     name: " Mexican-Style Shrimp Cocktail",
+    //Adding the recipes image
     img: '../Recipe Images/Mexican-Style Shrimp Cocktail.webp',
+    //Adding the ingredients
     ingredients: [
         "1 cup clam juice",
-        "¼ teaspoon dried oregano",
+        "&#188; teaspoon dried oregano",
         "1 pound large shrimp, peeled and deveined",
-        "1 ¼ cups peeled, seeded, diced ripe tomatoes",
+        "1 &#188; cups peeled, seeded, diced ripe tomatoes",
         "1 cup diced English cucumber",
-        "½ cup diced celery",
-        "½ cup finely diced red onion",
+        "&#189; cup diced celery",
+        "&#189; cup finely diced red onion",
         "2 tablespoons seeded and diced jalapeno peppers",
-        "½ cup ketchup",
+        "&#189; cup ketchup",
         "2 medium limes, juiced",
         "2 tablespoons freshly chopped cilantro, plus more for garnish",
         "1 dash Mexican-style hot sauce",
         "1 large Hass avocado, cubed"
     ],
+    //Adding the directions to the page
     directions: [
         "Bring clam juice and oregano to a boil in a saucepan over medium-high heat. Add shrimp; cook and stir just until shrimp turn pink, about 2 minutes. (They will not be cooked through.) Transfer shrimp to a bowl with a slotted spoon; let cool to room temperature. Reserve liquid.",
         "While the shrimp are cooling, combine tomatoes, cucumbers, celery, onion, and jalape&ntilde;os in a mixing bowl. Gently mix in reserved cooking liquid, ketchup, lime juice, 2 tablespoons cilantro, and hot sauce until well combined.",
@@ -27,6 +35,7 @@ let side_recipes = [{
     ]
 },
 {
+    //Adding the other recipes to the page
     name: "Shrimp Cheesecake",
     img: '../Recipe Images/Shrimp Cheesecake.webp',
     ingredients: [
@@ -38,11 +47,11 @@ let side_recipes = [{
         "4 tablespoons butter or margarine",
         "3 (8 ounce) packages cream cheese, softened",
         "4 eggs",
-        "½ cup heavy cream",
+        "&#189; cup heavy cream",
         "16 ounces smoked Gouda, grated",
         "2 teaspoons salt"
 
-        
+
     ],
     directions: [
         "Preheat oven to 350 degrees F (175 degrees C).",
@@ -65,13 +74,13 @@ let side_recipes = [{
         "2 cloves garlic, minced",
         "4 (4 ounce) fillets swai fish, cut into 1-inch cubes",
         "2 tablespoons chili powder",
-        "½ teaspoon sea salt",
-        "½ teaspoon ground cumin",
-        "¼ teaspoon coarsely ground black pepper",
+        "&#189; teaspoon sea salt",
+        "&#189; teaspoon ground cumin",
+        "&#188; teaspoon coarsely ground black pepper",
         "12 corn tortillas, warmed",
         "1 cup shredded Monterey Jack cheese"
-        
-        
+
+
     ],
     directions: [
         "Heat 1 tablespoon olive oil in a saut&eacute; pan over medium-high heat. Cook and stir onion, red bell pepper, jalape&ntilde;o, and garlic in hot oil until slightly softened, about 4 minutes. Transfer vegetables to a plate and set aside.",
@@ -89,17 +98,20 @@ let side_recipes = [{
         "1 green pepper, finely chopped",
         "1 clove garlic, crushed",
         "1 tablespoon sunflower oil"
-        
+
     ],
     directions: [
         "Place sunflower oil in a skillet. Add the onion, green pepper and garlic and cook for 5 minutes. Add the Maille Old Style Mustard and cook for another 2 minutes. Add the shrimp and cook 5 minutes more. Season to taste. Serve with a salad of fine herbs (chives, chervil, parsley, basil)."
     ]
 
-    
 }];
-sides.innerHTML = '';
- side_recipes.forEach(el => {
-    sides.innerHTML += `<div class="Recipe">
+// Starting off with the empty container
+recepies_container.innerHTML = '';
+// Creating a for-Each loop for all recipes on the page
+side_recipes.forEach(el => {
+
+    // appending to html
+    recepies_container.innerHTML += `<div class="Recipe">
     <p class="RecipeTitle"> <strong> ${el.name} </strong> </p>
     <img class="seafoodIMG" src="${el.img}">
     <p class="Ingredients"> <strong> Ingredients </strong> </p>

@@ -1,20 +1,28 @@
-let app = document.getElementById('appetizers_recipies');
+//Appetizers recipe script page
 
+// referencing element by id on the HTML page
+let recepies_container = document.getElementById('appetizers_recipies');
+
+//Adding appertizer recipes to the JS app
 let app_recipes = [{
+    //Adding the recipe name
     name: "New England Clam Chowder",
+    //Adding the recipes image
     img: '../Recipe Images/New England clam chowder.webp',
+    //Adding the ingredients
     ingredients: [
         "4 slices bacon",
-        "½ cup chopped onion",
+        "&#189; cup chopped onion",
         "4 potatoes, peeled and cubed",
         "1 tablespoon all-purpose flour",
         "1 cup bottled clam juice",
         "1 cup half-and-half",
         "2 (6 ounce) cans minced clams",
         "salt and pepper to taste",
-        "½ cup heavy cream (Optional)",
+        "&#189; cup heavy cream (Optional)",
         "2 tablespoons chopped fresh parsley"
-        
+
+        //Adding the directions to the page
     ],
     directions: [
         "In a large saucepan over medium high heat, fry the bacon until crisp, about 10 minutes. Drain on paper towels, reserving the bacon fat in the pan, crumble and set aside.",
@@ -24,6 +32,7 @@ let app_recipes = [{
     ]
 },
 {
+    //Adding the other recipes to the page
     name: "Chef John's Crab-Stuffed Sole",
     img: '../Recipe Images/crab stuffed sole.webp',
     ingredients: [
@@ -32,16 +41,16 @@ let app_recipes = [{
         "1 tablespoon finely diced poblano pepper",
         "1 tablespoon panko breadcrumbs",
         "2 teaspoons minced green onion",
-        "½ teaspoon lemon juice",
+        "&#189; teaspoon lemon juice",
         "salt and ground black pepper to taste",
-        "⅓ cup mayonnaise",
+        "&#8531 cup mayonnaise",
         "2 teaspoons lemon zest",
         "1 pinch cayenne pepper",
         "6 (2 ounce) sole fillets",
         "salt to taste",
-        "⅛ teaspoon paprika, or to taste"
-        
-        
+        "⅛&#8539; teaspoon paprika, or to taste"
+
+
     ],
     directions: [
         "Preheat the oven to 400 degrees F (200 degrees C). Lightly grease a baking dish with cooking spray.",
@@ -61,40 +70,44 @@ let app_recipes = [{
         "2 tablespoons sour cream",
         "1 teaspoon liquid smoke flavoring",
         "1 teaspoon Worcestershire sauce",
-        "¼ teaspoon hot sauce (such as Tabasco)"
-        
+        "&#188; teaspoon hot sauce (such as Tabasco)"
+
     ],
     directions: [
-        "Combine cream cheese, oysters, sour cream, liquid smoke, Worcestershire sauce, and hot sauce in a blender. Blend until well mixed and oysters are chopped to desired consistency.",   
+        "Combine cream cheese, oysters, sour cream, liquid smoke, Worcestershire sauce, and hot sauce in a blender. Blend until well mixed and oysters are chopped to desired consistency.",
         "Melt butter in a medium skillet over medium heat. Add onion and garlic; saute until golden brown 7 to 8 minutes. Remove from the heat.",
-       
+
     ]
 },
 {
-        name: "Mussele Vinaigrette",
-        img: '../Recipe Images/Mussle Vinaigrette.webp',
-        ingredients: [
+    name: "Mussele Vinaigrette",
+    img: '../Recipe Images/Mussle Vinaigrette.webp',
+    ingredients: [
 
-            "24 fresh mussels, scrubbed and debearded",
-            "1 small green bell pepper, seeded and diced",
-            "1 small red bell pepper, seeded and diced",
-            "1 small yellow bell peppers, seeded and diced",
-            "½ cup olive oil",
-            "¼ cup red wine vinegar",
-            "2 tablespoons chopped fresh parsley",
-            "1 hard-cooked egg, chopped",
-            "½ teaspoon salt",
-            "1 pinch ground black pepper"
-            
-        ],
-        directions: [
-            "1.	Bring one inch of water to a boil in a large pot. Add mussels, cover, and steam for 3 to 5 minutes, until they are all open. Drain. Remove one side of each shell, and arrange the open shelled mussels on a serving platter. Discard any mussels that do not open.",
-            "2.	In a medium bowl, mix together the red, yellow, and green bell peppers, olive oil, wine vinegar, parsley, egg, salt, and pepper. Spoon over the mussels on the shells. Refrigerate until serving."
-        ]
+        "24 fresh mussels, scrubbed and debearded",
+        "1 small green bell pepper, seeded and diced",
+        "1 small red bell pepper, seeded and diced",
+        "1 small yellow bell peppers, seeded and diced",
+        "&#189; cup olive oil",
+        "&#188; cup red wine vinegar",
+        "2 tablespoons chopped fresh parsley",
+        "1 hard-cooked egg, chopped",
+        "&#189; teaspoon salt",
+        "1 pinch ground black pepper"
+
+    ],
+    directions: [
+        "Bring one inch of water to a boil in a large pot. Add mussels, cover, and steam for 3 to 5 minutes, until they are all open. Drain. Remove one side of each shell, and arrange the open shelled mussels on a serving platter. Discard any mussels that do not open.",
+        "In a medium bowl, mix together the red, yellow, and green bell peppers, olive oil, wine vinegar, parsley, egg, salt, and pepper. Spoon over the mussels on the shells. Refrigerate until serving."
+    ]
 }];
-app.innerHTML = '';
+// Starting off with the empty container
+recepies_container.innerHTML = '';
+// Creating a for-Each loop for all recipes on the page
 app_recipes.forEach(el => {
-    app.innerHTML += `<div class="Recipe">
+
+    // appending to html
+    recepies_container.innerHTML += `<div class="Recipe">
     <p class="RecipeTitle"> <strong> ${el.name} </strong> </p>
     <img class="seafoodIMG" src="${el.img}">
     <p class="Ingredients"> <strong> Ingredients </strong> </p>
