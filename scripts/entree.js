@@ -19,6 +19,30 @@ let en_recipes = [{
     ]
 },
 {
+    name: "Salmon Stuffed with Crab and Lobster",
+    img: '../Recipe Images/Salmon Stuffed with Crab and Lobster.webp',
+    ingredients: [
+        "cooking spray",
+        "2 small lemons",
+        "1 tablespoon salted butter",
+        "½ medium onion, diced",
+        "2 cloves garlic, diced",
+        "½ pound crabmeat, coarsely chopped",
+        "½ pound lobster meat, chopped•	6 ounces goat cheese, crumbled",
+        "2 (8 ounce) salmon fillets",
+        "2 tablespoons barbecue sauce, or to taste",
+        "salt and ground black pepper to taste"
+
+    ],
+    directions: [
+        "Preheat the oven to 350 degrees F (175 degrees C). Spray a baking dish with cooking spray. Slice one lemon and juice the second lemon; set aside.",
+        "Melt butter in a medium skillet over medium heat. Add onion and garlic; saute until golden brown 7 to 8 minutes. Remove from the heat.",
+        "Chop crab and lobster in a food processor. Transfer into a bowl and mix in onion mixture, goat cheese, and lemon juice.",
+        "Cut each salmon piece in half. Fold crab and lobster stuffing into each piece and tie closed with kitchen string. Place in the prepared baking dish. Place lemon slices on top of salmon and cover with barbecue sauce.",
+        "Cover the baking dish and bake in the preheated oven for 45 minutes. Uncover and bake until fish flakes easily with a fork, about 15 more minutes.",
+    ]
+},
+{
     name: "Seafood Pot Pie",
     img: '../Recipe Images/Seafood Pot Pie.webp',
     ingredients: [
@@ -49,30 +73,6 @@ let en_recipes = [{
         "Preheat oven to 375 degrees F (190 degrees C). Place an oven rack in the middle position.",
         "Whisk egg and remaining 1 tablespoon heavy cream in a small bowl. Place defrosted puff pastry sheets on a lightly floured work surface. Roll each sheet into a 13 x 13 square and cut each square into quarters. Discard any extra pastry. Place a square of pastry over each bowl, decoratively folding corners in to fit the bowl, and brush the top with egg wash. Use the tip of a knife to create 3 small slits in the center of the pastry to allow steam to vent during cooking. You may place chopped fennel fronds or parsley leaves on the top of the pastry, lightly pressing leaves onto the pastry in the egg wash to adhere.",
         "Place baking sheet with individual portions in the preheated oven and bake until pastry is golden browned, and filling is hot and bubbly, about 40 minutes. Let cool 10 minutes before serving.",
-    ]
-},
-{
-    name: "Salmon Stuffed with Crab and Lobster",
-    img: '../Recipe Images/Salmon Stuffed with Crab and Lobster.webp',
-    ingredients: [
-        "cooking spray",
-        "2 small lemons",
-        "1 tablespoon salted butter",
-        "½ medium onion, diced",
-        "2 cloves garlic, diced",
-        "½ pound crabmeat, coarsely chopped",
-        "½ pound lobster meat, chopped•	6 ounces goat cheese, crumbled",
-        "2 (8 ounce) salmon fillets",
-        "2 tablespoons barbecue sauce, or to taste",
-        "salt and ground black pepper to taste"
-
-    ],
-    directions: [
-        "Preheat the oven to 350 degrees F (175 degrees C). Spray a baking dish with cooking spray. Slice one lemon and juice the second lemon; set aside.",
-        "Melt butter in a medium skillet over medium heat. Add onion and garlic; saute until golden brown 7 to 8 minutes. Remove from the heat.",
-        "Chop crab and lobster in a food processor. Transfer into a bowl and mix in onion mixture, goat cheese, and lemon juice.",
-        "Cut each salmon piece in half. Fold crab and lobster stuffing into each piece and tie closed with kitchen string. Place in the prepared baking dish. Place lemon slices on top of salmon and cover with barbecue sauce.",
-        "Cover the baking dish and bake in the preheated oven for 45 minutes. Uncover and bake until fish flakes easily with a fork, about 15 more minutes.",
     ]
 },
 {

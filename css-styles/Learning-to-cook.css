@@ -1,0 +1,429 @@
+/*Styles for all pages, background, header, next&previous buttons and page headings*/
+
+/* Adding the website's Wallpaper */
+body {
+    background-image: url("../icons/Seafood-wallpaper.jpg");
+    background-size: cover;
+
+}
+
+/* Styling the header */
+.header {
+
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(69, 69, 69);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+/*Styling and creating the websites logo*/
+.Learning-Seafood-Cuisine {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0;
+    font-weight: 700;
+    font-style: oblique;
+    padding-top: 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(69, 69, 69);
+    border-radius: 5px;
+    background-color: rgb(238, 99, 29);
+}
+
+.logo {
+    height: 40px;
+}
+
+/*Styling our page links and names in the header*/
+.HeaderPages {
+    height: 60px;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: rgb(242, 240, 237);
+    opacity: 0.8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(69, 69, 69);
+    flex: 1;
+}
+
+.header-links {
+
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/*Adding more funtionality to page link (color change for hover and click)*/
+.header-links:hover {
+    opacity: 0.8;
+    color: rgb(74, 107, 239);
+}
+
+.header-links:active {
+    opacity: 0.5;
+    color: rgb(238, 99, 29);
+
+}
+
+/*Styling the "current page" headerlink to be bolded*/
+.header-link-active {
+    color: rgb(238, 99, 29);
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Styling the "current page" headerlink to have the same color change for click and hover as the others*/
+.header-link-active:hover {
+    opacity: 0.8;
+    color: rgb(74, 107, 239);
+}
+
+.header-link-active:active {
+    opacity: 0.9;
+    color: rgb(238, 99, 29);
+
+}
+
+/* Styling Search box (div) and search bar*/
+.search-box {
+    display: flex;
+    flex: 1;
+    padding-right: 5px;
+
+}
+
+.search-bar {
+    flex: 1;
+    width: 0px;
+    height: 30px;
+    padding-left: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4%;
+    border-color: rgb(98, 98, 98)
+}
+
+/*Adding a placeholder to the search bar*/
+.search-bar::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+}
+
+/*Styling the search button*/
+.search-button {
+    height: 33px;
+    width: 40px;
+    margin-left: -1px;
+    border-radius: 8%;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(69, 69, 69, 00.15s);
+    transition: box-shadow 0.15s;
+}
+
+/*Adding "reactions" to the search button when it's hovered over or clicked*/
+.search-button:hover {
+    opacity: 0.5;
+    background-color: rgb(74, 107, 239);
+}
+
+/*Styling icon added to search button*/
+.search-icon {
+    height: 20px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+/*Styling our page navigation next and previous buttons*/
+.nextpage-Button {
+
+    background-color: rgb(238, 99, 29);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    float: right;
+
+}
+
+.previouspage-Button {
+
+    background-color: rgb(238, 99, 29);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    float: left;
+
+}
+
+.nextpage-text {
+    text-decoration: none;
+    color: black
+}
+
+/*Styling all page headings*/
+.Page-heading {
+    font-family: Gill Sans;
+    text-decoration: underline;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/*Styling paragraph headings*/
+.p-heading {
+    margin-left: 25px;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+/*Styling Non recipe pages*/
+
+/*Styling the Welcome message on Cooking Tips and Home page*/
+.Welcome-message {
+    font-family: serif;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+/*Styling the Welcome box div only on the Home page*/
+.welcomeM-box {
+    display: flex;
+    display: block;
+    text-align: center;
+}
+
+/*Styling the Homepage*/
+
+/*Styling our homepage recipe display*/
+
+/*Styling the recipe display text*/
+.Popular-seafood {
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+/* Styling images for the Recipe photo display*/
+.HomePageIMGs {
+    width: 390px;
+    height: 390px;
+    object-fit: fill;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    display: flex;
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+
+/*Adding the hover feature which lets visitors know they can click the picture for the recipe*/
+.HomePageIMGs:hover {
+    opacity: 0.5;
+    background-color: rgb(213, 213, 215);
+}
+
+/*Styling the image div box*/
+.HP-Imagebox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 1px;
+    margin-bottom: 150px;
+}
+
+/*Styling text above images on the homepage*/
+.HP-Imagetext {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Styling the start message on homepage*/
+.start-message {
+    font-size: large;
+    width: 70%;
+    margin-left: 25px;
+    margin-bottom: 100px;
+}
+
+/*Styling the Cooking Tips Page */
+/*Styling the cooking tip page icon*/
+.CT-IMGs {
+    width: 600px;
+    height: 500px;
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 50%;
+}
+
+/*Styling the "Tips for beginners" heading, text and background*/
+
+.tips {
+    background-color: rgb(214, 240, 250);
+    border-color: black;
+    border-style: solid;
+    font-size: large;
+    margin-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/*Adding space between tips*/
+.li {
+    margin-top: 2.6;
+    padding-bottom: 20px;
+}
+
+/*Styling the link to a separate website for more cooking tips*/
+.more-tips {
+    font-size: medium;
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(203, 65, 6);
+}
+
+/*Adding a background color to the entire "about us" div for the text on the page*/
+.aboutUs {
+    background-color: rgb(214, 240, 250);
+    border-color: black;
+    border-style: solid;
+}
+
+/*Styling the about us page paragraphs*/
+.para {
+    font-family: serif;
+    font-size: large;
+    margin-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+
+}
+
+/* styling contact info added to the bottom of the Homepage, Cooking Tips and About us page*/
+
+/*Styling contact info heading and text*/
+.info-H {
+    padding-top: 40px;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.page-info {
+    font-size: small;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+/*Styling Contact info icon and adding a hover color and effect*/
+.info-icon {
+    height: 30px;
+    width: 40;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.info-icon:hover {
+    opacity: 0.5;
+    background-color: rgb(213, 213, 215);
+}
+
+/*Styling recipe pages*/
+
+/*Styling div for recipe page*/
+.all_recipies {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Styling the div for the recipe rows*/
+.First-Row {
+    width: 300px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Styling the recipe text on the pages*/
+.Recipe {
+    width: 50%;
+    height: 25%;
+    float: right;
+    font-size: large;
+    margin-bottom: 50px;
+
+}
+
+/*Styling the recipe titles*/
+.RecipeTitle {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    width: 400px;
+
+}
+
+/*Styling the ingredients on the recipe pages*/
+.Ingredients {
+    font-weight: bold;
+    font-size: large;
+    width: 400px;
+}
+
+/*Styling the directions on the recipe pages*/
+.Directions {
+    font-weight: bold;
+    font-family: serif;
+    font-size: large;
+    display: inline-block;
+    width: 50%;
+
+}
+
+/*Styling the images on the recipe pages*/
+.seafoodIMG {
+    width: 390px;
+    height: 390px;
+    object-fit: fill;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2%;
+    display: block;
+}
